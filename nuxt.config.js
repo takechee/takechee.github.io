@@ -10,7 +10,7 @@ export default {
   head: {
     title: 'takechee.github.io',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
@@ -18,6 +18,11 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  manifest: {
+    name: "takechee.github.io",
+    lang: 'ja'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -41,6 +46,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/pwa',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
