@@ -1,0 +1,10 @@
+{
+  "name": "takechee.github.io",
+  "short_name": "takechee.github.io",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/takechee.github.io/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "ja"
+}
